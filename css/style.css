@@ -1,0 +1,102 @@
+.brand-logo{margin-left:20px}
+
+nav{background:rgba(0,0,0,0.7); position:fixed; z-index:3}
+
+.nav-wrapper{border-bottom:0px solid black}
+
+#sidenav-overlay{    height:0vh}
+
+body{word-wrap:break-word; overflow-wrap:break-word}
+
+.start-slide{min-height:600px; z-index:1}
+
+.start-slide-text{z-index:3}
+
+#calculation{padding-top:30px; padding-bottom:30px; overflow:hidden; background-color:#FFED00}
+
+#calculation button{background-color:black}
+
+.calculation-block, .advantages-block{margin-top:40px; margin-bottom:40px}
+
+i.color-icon{color:black; font-size:2.5rem}
+
+.advantages-block h6{font-size:1.4em}
+
+.page-footer{background-color:white; opacity:.8; position:absolute; bottom:0; width:100%}
+
+.footer-logo{height:259px}
+
+#sell-spare-parts ul{list-style-image:url(../img/check_mark.png); text-indent:10px}
+
+#sell-spare-parts ul li{margin-top:30px}
+
+.card img{height:150px}
+
+.card{height:300px}
+
+.card-content{height:50%}
+
+.see-more{position:absolute; bottom:20px}
+
+#up{position:fixed; width:50px; height:50px; bottom:20px; right:20px; background-color:black; border-radius:50%; box-sizing:border-box; padding-top:3px; padding-left:3px; z-index:100}
+#up:hover{cursor:pointer}
+
+.adv{margin-top:30px; height:180px; border-left:2px solid black}
+
+.adv-title{min-height:60px; font-weight:bold}
+
+.contact-icons{font-size:2rem}
+
+.contacts-info h5{font-size:2em}
+
+#vk_groups, 
+#vk_groups iframe{ width:100% !important}
+
+#how-to-work .item{margin-top:2em}
+
+#how-to-work .circle{width:100px; height:100px; background-color:#448AFF; color:#FFF; position:relative}
+
+#how-to-work .circle i{position:absolute; left:20%; top:20%; font-size:4rem}
+
+#how-to-work .info, #how-to-work .info2{background-color:#F0F2F5; min-height:100px; box-sizing:border-box; padding:10px; border-radius:5px; position:relative; font-size:1.5em; color:#2A5885}
+
+#how-to-work .info::after{content:''; position:absolute; left:-30px; top:35%; border:10px solid transparent; border-right:20px solid #F2F2F2}
+
+#how-to-work .info2::after{content:''; position:absolute; right:-30px; top:35%; border:10px solid transparent; border-left:20px solid #F2F2F2}
+
+.circle_1{margin-left:20px}
+.circle_2{margin-left:0px}
+
+#feedback button{width:100%}
+
+footer .color-icon{color:rgba(0,0,0,1)}
+
+@media (min-width:1200px){}
+
+@media (min-width:768px) and (max-width:979px){}
+
+@media (max-width:767px){#title{font-size:3.8em}
+#how-to-work .circle{width:75px; height:75px}
+#how-to-work .circle i{font-size:3.2rem}
+#how-to-work .info::after{top:25%}
+#how-to-work .info2::after{top:25%}
+.start-slide #title{font-size:3.5em}
+}
+
+@media (max-width:480px){#title{font-size:2.9em}
+.adv{height:130px}
+.adv p{margin-top:-20px}
+
+footer h5{font-size:1.2em}
+.circle_1{margin-left:0px}
+.circle_2{margin-left:0px}
+#how-to-work .info::after{top:20%}
+ #how-to-work .info2::after{top:20%}
+}
+
+@media (max-width:400px){ .start-slide #title{font-size:2.8em}
+ .card-category .card-content .card-title{font-size:1.28em}
+ .card-category .card-content .see-more{font-size:.85em}
+ .pretext{font-size:2em}
+ .one-step .info{margin-left:20px}
+}

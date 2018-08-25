@@ -1,0 +1,19 @@
+# Charset
+AddDefaultCharset UTF-8
+
+# Error
+ErrorDocument 404 /404.php
+
+# DirectoryIndex
+DirectoryIndex index.php
+
+# Rewrite
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+<FilesMatch «.(gif|jpeg|png|swf|js|css|pdf|ico)$»> 
+Header set Cache-Control «max-age=1234000» 
+</FilesMatch>
